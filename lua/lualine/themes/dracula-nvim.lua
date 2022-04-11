@@ -1,7 +1,7 @@
 local dracula = {}
 
 local colors = require("dracula").colors()
-local bg = vim.g.dracula_lualine_bg_color or colors.black
+local bg = colors.black
 
 dracula.normal = {
     a = { fg = colors.black, bg = colors.purple, gui = "bold" },

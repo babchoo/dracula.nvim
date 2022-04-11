@@ -74,8 +74,6 @@ vim.g.dracula_colors = {
     bg = "#22212c",
     fg = "#f8f8f2",
 }
--- use transparent background
-vim.g.dracula_lualine_bg_color = "#44475a"
 -- set italic comment
 vim.g.dracula_italic_comment = true
 ```

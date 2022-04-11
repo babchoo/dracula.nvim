@@ -308,11 +308,7 @@ M.apply = function()
     highlight("NvimTreeRootFolder", colors.fg, nil, "bold")
     highlight("NvimTreeSpecialFile", colors.pink, nil, "underline")
     highlight("NvimTreeVertSplit", colors.bg, colors.bg)
-    highlight(
-        "NvimTreeWindowPicker",
-        colors.white,
-        vim.g.dracula_lualine_bg_color or colors.bg
-    )
+    highlight("NvimTreeWindowPicker", colors.white, colors.black)
 
     -- lsp
     highlight("DiagnosticError", colors.red)
